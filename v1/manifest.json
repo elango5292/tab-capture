@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "1v",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["*://*.google.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "main": "background.js",
+  "type": "module",
+  "sourceType": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  }
+}
